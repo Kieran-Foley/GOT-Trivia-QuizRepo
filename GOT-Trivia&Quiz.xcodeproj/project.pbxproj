@@ -15,6 +15,8 @@
 		6FE31F741F3B2B86002C54F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE31F721F3B2B86002C54F1 /* LaunchScreen.storyboard */; };
 		6FE31F7F1F3B2B87002C54F1 /* GOT_Trivia_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE31F7E1F3B2B87002C54F1 /* GOT_Trivia_QuizTests.swift */; };
 		6FE31F8A1F3B2B87002C54F1 /* GOT_Trivia_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE31F891F3B2B87002C54F1 /* GOT_Trivia_QuizUITests.swift */; };
+		6FF19E4F1F3B4748003DEE77 /* quizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF19E4E1F3B4748003DEE77 /* quizViewController.swift */; };
+		6FF19E511F3B4ECA003DEE77 /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF19E501F3B4ECA003DEE77 /* scoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6FE31F851F3B2B87002C54F1 /* GOT-Trivia&QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GOT-Trivia&QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE31F891F3B2B87002C54F1 /* GOT_Trivia_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOT_Trivia_QuizUITests.swift; sourceTree = "<group>"; };
 		6FE31F8B1F3B2B87002C54F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF19E4E1F3B4748003DEE77 /* quizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quizViewController.swift; sourceTree = "<group>"; };
+		6FF19E501F3B4ECA003DEE77 /* scoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				6FE31F661F3B2B86002C54F1 /* AppDelegate.swift */,
 				6FE31F681F3B2B86002C54F1 /* ViewController.swift */,
+				6FF19E4E1F3B4748003DEE77 /* quizViewController.swift */,
+				6FF19E501F3B4ECA003DEE77 /* scoreViewController.swift */,
 				6FE31F6A1F3B2B86002C54F1 /* Main.storyboard */,
 				6FE31F701F3B2B86002C54F1 /* Assets.xcassets */,
 				6FE31F721F3B2B86002C54F1 /* LaunchScreen.storyboard */,
@@ -266,6 +272,8 @@
 				6FE31F691F3B2B86002C54F1 /* ViewController.swift in Sources */,
 				6FE31F6F1F3B2B86002C54F1 /* GOT_Trivia_Quiz.xcdatamodeld in Sources */,
 				6FE31F671F3B2B86002C54F1 /* AppDelegate.swift in Sources */,
+				6FF19E511F3B4ECA003DEE77 /* scoreViewController.swift in Sources */,
+				6FF19E4F1F3B4748003DEE77 /* quizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

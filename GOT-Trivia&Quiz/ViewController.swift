@@ -1,18 +1,44 @@
-//
-//  ViewController.swift
-//  GOT-Trivia&Quiz
-//
-//  Created by Kieran Foley on 09/08/2017.
-//  Copyright © 2017 Kieran Foley. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
+    @IBOutlet var quiz_Button_Outlet: UIButton!
+    @IBOutlet var trivia_Button_Outlet: UIButton!
+    @IBOutlet var Polls: UIButton!
+   
+    
+    @IBAction func Quiz_Button(_ sender: UIButton) {
+        performSegue(withIdentifier: "quizSegue", sender: self)
+    }
+    
+    
+    @IBAction func triviaButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "triviaSegue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        quiz_Button_Outlet.layer.cornerRadius = 5;
+        quiz_Button_Outlet.layer.borderWidth = 4;
+        quiz_Button_Outlet.layer.borderColor = UIColor.lightGray.cgColor;
+        quiz_Button_Outlet.backgroundColor = UIColor.clear;
+        quiz_Button_Outlet.setTitleColor(UIColor.white, for: .normal);
+        
+        trivia_Button_Outlet.layer.cornerRadius = 5;
+        trivia_Button_Outlet.layer.borderWidth = 4;
+        trivia_Button_Outlet.layer.borderColor = UIColor.lightGray.cgColor;
+        trivia_Button_Outlet.backgroundColor = UIColor.clear;
+        trivia_Button_Outlet.setTitleColor(UIColor.white, for: .normal);
+        
+        Polls.layer.cornerRadius = 5;
+        Polls.layer.borderWidth = 4;
+        Polls.layer.borderColor = UIColor.lightGray.cgColor;
+        Polls.backgroundColor = UIColor.clear;
+        Polls.setTitleColor(UIColor.white, for: .normal);
     }
 
     override func didReceiveMemoryWarning() {
