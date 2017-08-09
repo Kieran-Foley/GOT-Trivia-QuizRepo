@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					6FE31F621F3B2B86002C54F1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X8DY7X85FX;
 						ProvisioningStyle = Automatic;
 					};
 					6FE31F791F3B2B86002C54F1 = {
@@ -416,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8DY7X85FX;
 				INFOPLIST_FILE = "GOT-Trivia&Quiz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "KMF.GOT-Trivia-Quiz";
@@ -428,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8DY7X85FX;
 				INFOPLIST_FILE = "GOT-Trivia&Quiz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "KMF.GOT-Trivia-Quiz";
@@ -509,6 +512,7 @@
 				6FE31F901F3B2B87002C54F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FE31F911F3B2B87002C54F1 /* Build configuration list for PBXNativeTarget "GOT-Trivia&QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +521,7 @@
 				6FE31F931F3B2B87002C54F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FE31F941F3B2B87002C54F1 /* Build configuration list for PBXNativeTarget "GOT-Trivia&QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				6FE31F961F3B2B87002C54F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
