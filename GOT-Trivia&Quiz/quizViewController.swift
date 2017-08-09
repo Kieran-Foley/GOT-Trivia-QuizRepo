@@ -126,14 +126,4 @@ class quizViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-/***************************************************************************************
-* To Do List
-*
-*    * Add more questions and answers.
-*    * Make the questions random, make many so its different every time you try.
-*    * Highscores? Would need to implement users.
-*    * Pictures for each question.
-*    * Triva or quiz button at the start of the app?
-***************************************************************************************/
-
 }

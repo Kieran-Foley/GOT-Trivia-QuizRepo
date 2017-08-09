@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FAD44CA1F3B60D100280D28 /* triviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAD44C91F3B60D100280D28 /* triviaViewController.swift */; };
 		6FE31F671F3B2B86002C54F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE31F661F3B2B86002C54F1 /* AppDelegate.swift */; };
 		6FE31F691F3B2B86002C54F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE31F681F3B2B86002C54F1 /* ViewController.swift */; };
 		6FE31F6C1F3B2B86002C54F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE31F6A1F3B2B86002C54F1 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FAD44C91F3B60D100280D28 /* triviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = triviaViewController.swift; sourceTree = "<group>"; };
 		6FE31F631F3B2B86002C54F1 /* GOT-Trivia&Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GOT-Trivia&Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE31F661F3B2B86002C54F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FE31F681F3B2B86002C54F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				6FE31F681F3B2B86002C54F1 /* ViewController.swift */,
 				6FF19E4E1F3B4748003DEE77 /* quizViewController.swift */,
 				6FF19E501F3B4ECA003DEE77 /* scoreViewController.swift */,
+				6FAD44C91F3B60D100280D28 /* triviaViewController.swift */,
 				6FE31F6A1F3B2B86002C54F1 /* Main.storyboard */,
 				6FE31F701F3B2B86002C54F1 /* Assets.xcassets */,
 				6FE31F721F3B2B86002C54F1 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 				6FE31F691F3B2B86002C54F1 /* ViewController.swift in Sources */,
 				6FE31F6F1F3B2B86002C54F1 /* GOT_Trivia_Quiz.xcdatamodeld in Sources */,
 				6FE31F671F3B2B86002C54F1 /* AppDelegate.swift in Sources */,
+				6FAD44CA1F3B60D100280D28 /* triviaViewController.swift in Sources */,
 				6FF19E511F3B4ECA003DEE77 /* scoreViewController.swift in Sources */,
 				6FF19E4F1F3B4748003DEE77 /* quizViewController.swift in Sources */,
 			);

@@ -34,7 +34,6 @@
                                     <constraint firstAttribute="height" constant="65" id="yWm-tf-C27"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
-                                <state key="normal" title="Take The Quiz"/>
                                 <connections>
                                     <action selector="Quiz_Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G40-WK-Jru"/>
                                 </connections>
@@ -47,7 +46,6 @@
                                     <constraint firstAttribute="height" constant="65" id="os0-oz-Mqv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
-                                <state key="normal" title="Trivia"/>
                                 <connections>
                                     <action selector="triviaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1yH-QM-Yxl"/>
                                 </connections>
@@ -60,7 +58,6 @@
                                     <constraint firstAttribute="height" constant="65" id="TlO-5g-w2d"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
-                                <state key="normal" title="Don't Click"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_Game_of_Thrones" translatesAutoresizingMaskIntoConstraints="NO" id="aJn-sK-04O">
                                 <rect key="frame" x="16" y="28" width="343" height="144"/>
@@ -111,10 +108,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Trivia View Controller-->
         <scene sceneID="ySB-9s-GAu">
             <objects>
-                <viewController id="NFI-dF-fTc" sceneMemberID="viewController">
+                <viewController id="NFI-dF-fTc" customClass="triviaViewController" customModule="GOT_Trivia_Quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="weB-WC-4l5"/>
                         <viewControllerLayoutGuide type="bottom" id="dcP-Xb-O2a"/>
@@ -122,12 +119,91 @@
                     <view key="view" contentMode="scaleToFill" id="whz-ja-8Jj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="citadel" translatesAutoresizingMaskIntoConstraints="NO" id="jFH-EP-pWY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LABEL" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTE-Iu-zEe">
+                                <rect key="frame" x="16" y="183" width="343" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="Ccf-xz-z57"/>
+                                    <constraint firstAttribute="width" constant="343" id="ohZ-aJ-YzD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxq-hL-a0w">
+                                <rect key="frame" x="78" y="560" width="219" height="57"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="219" id="kfl-Si-sRy"/>
+                                    <constraint firstAttribute="height" constant="57" id="phN-H7-BCF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="mainMenuButton:" destination="NFI-dF-fTc" eventType="touchUpInside" id="HOt-2l-BUf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did You Know?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzm-0O-ajx">
+                                <rect key="frame" x="16" y="30" width="343" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="aS1-Dn-unp"/>
+                                    <constraint firstAttribute="width" constant="343" id="oay-h6-vtD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRy-Jc-shQ">
+                                <rect key="frame" x="78" y="453" width="219" height="57"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="Npd-OT-q96"/>
+                                    <constraint firstAttribute="width" constant="219" id="ofQ-PO-Rgf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextFactButton:" destination="NFI-dF-fTc" eventType="touchUpInside" id="8sA-eT-0vg"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wTE-Iu-zEe" firstAttribute="trailing" secondItem="whz-ja-8Jj" secondAttribute="trailingMargin" id="0pE-0s-m5V"/>
+                            <constraint firstItem="wTE-Iu-zEe" firstAttribute="leading" secondItem="whz-ja-8Jj" secondAttribute="leadingMargin" id="4Oa-RD-KW6"/>
+                            <constraint firstItem="jFH-EP-pWY" firstAttribute="leading" secondItem="whz-ja-8Jj" secondAttribute="leading" id="69m-gE-m1f"/>
+                            <constraint firstItem="jFH-EP-pWY" firstAttribute="top" secondItem="whz-ja-8Jj" secondAttribute="top" id="FwH-l0-O0T"/>
+                            <constraint firstItem="Vxq-hL-a0w" firstAttribute="leading" secondItem="whz-ja-8Jj" secondAttribute="leadingMargin" constant="62" id="GiY-c9-9Dn"/>
+                            <constraint firstItem="wTE-Iu-zEe" firstAttribute="top" secondItem="nzm-0O-ajx" secondAttribute="bottom" constant="60" id="HIu-at-7iT"/>
+                            <constraint firstItem="dcP-Xb-O2a" firstAttribute="top" secondItem="jFH-EP-pWY" secondAttribute="bottom" id="Kps-Nd-Z2D"/>
+                            <constraint firstItem="nzm-0O-ajx" firstAttribute="trailing" secondItem="whz-ja-8Jj" secondAttribute="trailingMargin" id="Kxa-T1-Orf"/>
+                            <constraint firstItem="nzm-0O-ajx" firstAttribute="leading" secondItem="whz-ja-8Jj" secondAttribute="leadingMargin" id="bVE-PL-qmd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yRy-Jc-shQ" secondAttribute="trailing" constant="62" id="eCe-za-F8H"/>
+                            <constraint firstItem="dcP-Xb-O2a" firstAttribute="top" secondItem="Vxq-hL-a0w" secondAttribute="bottom" constant="50" id="fdM-bw-pSS"/>
+                            <constraint firstItem="Vxq-hL-a0w" firstAttribute="top" secondItem="yRy-Jc-shQ" secondAttribute="bottom" constant="50" id="h3k-5j-rUC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vxq-hL-a0w" secondAttribute="trailing" constant="62" id="ikt-bb-bpq"/>
+                            <constraint firstAttribute="trailing" secondItem="jFH-EP-pWY" secondAttribute="trailing" id="lHb-5B-Bix"/>
+                            <constraint firstItem="yRy-Jc-shQ" firstAttribute="leading" secondItem="whz-ja-8Jj" secondAttribute="leadingMargin" constant="62" id="pHa-5d-wzq"/>
+                            <constraint firstItem="nzm-0O-ajx" firstAttribute="top" secondItem="weB-WC-4l5" secondAttribute="bottom" constant="10" id="sbo-O7-0ff"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="factLabel" destination="wTE-Iu-zEe" id="jNX-vz-itY"/>
+                        <outlet property="mainMenuOutlet" destination="Vxq-hL-a0w" id="xRJ-iC-JCh"/>
+                        <outlet property="nextFactOutlet" destination="yRy-Jc-shQ" id="UXZ-5C-OCc"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="mainMenu" id="yWa-Bx-oUr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Pr-3Q-nGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="921" y="483"/>
+            <point key="canvasLocation" x="920.79999999999995" y="482.60869565217394"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="TMr-Lg-pds">
@@ -333,7 +409,11 @@
     <resources>
         <image name="GOT-BG" width="893" height="1200"/>
         <image name="Logo_Game_of_Thrones" width="1500" height="400"/>
+        <image name="citadel" width="512" height="512"/>
         <image name="gotBackground2" width="512" height="512"/>
         <image name="gotBackground3" width="1500" height="2122"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="yWa-Bx-oUr"/>
+    </inferredMetricsTieBreakers>
 </document>
