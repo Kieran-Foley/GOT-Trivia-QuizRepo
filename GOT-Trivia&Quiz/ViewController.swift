@@ -1,22 +1,37 @@
 import UIKit
 
+// Global :(
+var shownSpoilerAlert = 0;
+
 class ViewController: UIViewController {
 
-    
-    
     @IBOutlet var quiz_Button_Outlet: UIButton!
     @IBOutlet var trivia_Button_Outlet: UIButton!
     @IBOutlet var Polls: UIButton!
-   
+    
     
     @IBAction func Quiz_Button(_ sender: UIButton) {
         performSegue(withIdentifier: "quizSegue", sender: self)
     }
     
-    
     @IBAction func triviaButton(_ sender: UIButton) {
+        if (shownSpoilerAlert == 0) {
+            let alert = UIAlertController(title: "Warning!", message: "The next page contains spoilers.", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.default, handler: nil))
+            alert.addAction(UIAlertAction(title: "Continue", style: UIAlertActionStyle.default, handler: { action in
+                self.triviaSegue()
+                shownSpoilerAlert = 1;
+            }))
+            self.present(alert, animated: true, completion: nil)
+        } else {
+            self.triviaSegue()
+        }
+    }
+ 
+    func triviaSegue() {
         performSegue(withIdentifier: "triviaSegue", sender: self)
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +56,8 @@ class ViewController: UIViewController {
         Polls.layer.borderColor = UIColor.lightGray.cgColor;
         Polls.backgroundColor = UIColor.clear;
         Polls.setTitleColor(UIColor.white, for: .normal);
-        Polls.setTitle("Don't Click me", for: .normal);
+        Polls.setTitle("Coming Soon", for: .normal);
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,7 +72,7 @@ class ViewController: UIViewController {
 *    * Make the questions random, make many so its different every time you try.
 *    * Highscores? Would need to implement users.
 *    * Comment all views.
-*    * Spoiler alert before trivia
+*    * Quit button on quiz.
 ***************************************************************************************/
 }
 
