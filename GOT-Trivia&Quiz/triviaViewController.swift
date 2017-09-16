@@ -1,11 +1,3 @@
-//
-//  triviaViewController.swift
-//  GOT-Trivia&Quiz
-//
-//  Created by Kieran Foley on 09/08/2017.
-//  Copyright © 2017 Kieran Foley. All rights reserved.
-//
-
 import UIKit
 
 class triviaViewController: UIViewController {
@@ -23,6 +15,16 @@ class triviaViewController: UIViewController {
     @IBOutlet var factLabel: UILabel!
     
     
+/*****************************************************************************************
+ * Function name : nextFactButton()
+ *    returns : N/A
+ *    arg1 : N/A
+ * Created by : Kieran Foley
+ * Date created : 07/08/2017
+ * Date last modified : 12/08/17
+ * Description :
+ *  Goes through the whole array and loops round once it has reached the last one.
+ *****************************************************************************************/
     @IBAction func nextFactButton(_ sender: UIButton) {
         
         factLabel.text = factArray[count]
@@ -34,18 +36,14 @@ class triviaViewController: UIViewController {
         }
     }
     
-
+    // Moves the view back to the main Menu.
     @IBAction func mainMenuButton(_ sender: UIButton) {
         performSegue(withIdentifier: "mainMenu", sender: self)
     }
 
+    // Styles the buttons and displays the facts on a label.
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
-        
-        
 
         mainMenuOutlet.layer.cornerRadius = 5;
         mainMenuOutlet.layer.borderWidth = 4;
@@ -62,13 +60,9 @@ class triviaViewController: UIViewController {
         nextFactOutlet.setTitle("Next Fact", for: .normal);
         
         factLabel.text = factArray[0];
-        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-
 }

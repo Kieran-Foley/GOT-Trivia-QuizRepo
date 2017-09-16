@@ -66,7 +66,7 @@
                                     <constraint firstAttribute="width" constant="343" id="uKm-4g-XDE"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed and Designed by ©KMFApplications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIP-yx-OsA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designed and Developed by ©KMFApplications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIP-yx-OsA">
                                 <rect key="frame" x="16" y="639" width="343" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -200,7 +200,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Pr-3Q-nGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="920.79999999999995" y="482.60869565217394"/>
+            <point key="canvasLocation" x="1164" y="630"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="TMr-Lg-pds">
@@ -243,11 +243,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulq-5P-87F">
-                                <rect key="frame" x="78" y="474" width="219" height="57"/>
+                                <rect key="frame" x="78" y="430" width="219" height="57"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="57" id="jIt-H2-R3b"/>
-                                    <constraint firstAttribute="width" constant="219" id="wrJ-w0-Ab2"/>
+                                    <constraint firstAttribute="width" constant="219" id="bEy-FL-Efy"/>
+                                    <constraint firstAttribute="height" constant="57" id="ePd-mp-SR3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
                                 <state key="normal">
@@ -258,11 +258,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0K-ON-PBX">
-                                <rect key="frame" x="78" y="561" width="219" height="57"/>
+                                <rect key="frame" x="78" y="495" width="219" height="57"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="219" id="Sip-eJ-sHb"/>
-                                    <constraint firstAttribute="height" constant="57" id="yyc-KX-Dfz"/>
+                                    <constraint firstAttribute="width" constant="219" id="G84-6Q-xUn"/>
+                                    <constraint firstAttribute="height" constant="57" id="hgl-XI-G24"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
                                 <state key="normal">
@@ -273,11 +273,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxm-ED-LRo">
-                                <rect key="frame" x="78" y="387" width="219" height="57"/>
+                                <rect key="frame" x="78" y="365" width="219" height="57"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="219" id="8Fs-np-r7v"/>
-                                    <constraint firstAttribute="height" constant="57" id="Pbj-nO-zEX"/>
+                                    <constraint firstAttribute="width" constant="219" id="5UG-Si-dcR"/>
+                                    <constraint firstAttribute="height" constant="57" id="jJC-Qe-NL3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
                                 <state key="normal">
@@ -287,39 +287,71 @@
                                     <action selector="answerButtons:" destination="eE9-Qe-bva" eventType="touchUpInside" id="rVt-hs-lX9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm9-7e-6k7">
+                                <rect key="frame" x="16" y="585" width="165" height="57"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="tY6-Bf-i2O"/>
+                                    <constraint firstAttribute="width" constant="165" id="yrL-Xg-X5X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
+                                <connections>
+                                    <action selector="goBackButton:" destination="eE9-Qe-bva" eventType="touchUpInside" id="4Pj-JX-N1k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIc-nM-ubj">
+                                <rect key="frame" x="193" y="585" width="166" height="57"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="166" id="5lg-kf-eYB"/>
+                                    <constraint firstAttribute="height" constant="57" id="az1-p5-5NE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
+                                <connections>
+                                    <action selector="triviaButton:" destination="eE9-Qe-bva" eventType="touchUpInside" id="Gkb-Px-eqG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="f0K-ON-PBX" firstAttribute="top" secondItem="ulq-5P-87F" secondAttribute="bottom" constant="30" id="0Gh-qj-4JO"/>
                             <constraint firstItem="Tdc-jK-c7x" firstAttribute="leading" secondItem="9CE-T0-tXT" secondAttribute="leadingMargin" constant="62" id="5LQ-Fg-Foc"/>
-                            <constraint firstItem="Bxm-ED-LRo" firstAttribute="top" secondItem="Tdc-jK-c7x" secondAttribute="bottom" constant="30" id="AWX-QX-hgP"/>
-                            <constraint firstItem="ulq-5P-87F" firstAttribute="leading" secondItem="9CE-T0-tXT" secondAttribute="leadingMargin" constant="62" id="CNS-x3-IFm"/>
-                            <constraint firstItem="Bxm-ED-LRo" firstAttribute="leading" secondItem="9CE-T0-tXT" secondAttribute="leadingMargin" constant="62" id="DSz-dV-g3b"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ulq-5P-87F" secondAttribute="trailing" constant="62" id="Kqi-MT-4kd"/>
-                            <constraint firstItem="f0K-ON-PBX" firstAttribute="leading" secondItem="9CE-T0-tXT" secondAttribute="leadingMargin" constant="62" id="SoL-6S-ecg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bxm-ED-LRo" secondAttribute="trailing" constant="62" id="AzS-UA-sIa"/>
+                            <constraint firstItem="ulq-5P-87F" firstAttribute="top" secondItem="Bxm-ED-LRo" secondAttribute="bottom" constant="8" id="J3Z-9j-nW5"/>
+                            <constraint firstItem="uIc-nM-ubj" firstAttribute="leading" secondItem="gm9-7e-6k7" secondAttribute="trailing" constant="12" id="PFI-d4-hel"/>
+                            <constraint firstItem="ulq-5P-87F" firstAttribute="leading" secondItem="9CE-T0-tXT" secondAttribute="leadingMargin" constant="62" id="PK5-xF-44C"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ulq-5P-87F" secondAttribute="trailing" constant="62" id="QqH-gD-17U"/>
+                            <constraint firstItem="Bxm-ED-LRo" firstAttribute="leading" secondItem="9CE-T0-tXT" secondAttribute="leadingMargin" constant="62" id="TXY-zJ-JxZ"/>
                             <constraint firstItem="guY-k3-wnL" firstAttribute="leading" secondItem="9CE-T0-tXT" secondAttribute="leadingMargin" id="Vbc-61-IRh"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="f0K-ON-PBX" secondAttribute="trailing" constant="62" id="W6K-B7-OMO"/>
+                            <constraint firstItem="uIc-nM-ubj" firstAttribute="trailing" secondItem="9CE-T0-tXT" secondAttribute="trailingMargin" id="Wcr-5i-eLn"/>
                             <constraint firstItem="Tdc-jK-c7x" firstAttribute="top" secondItem="guY-k3-wnL" secondAttribute="bottom" constant="25" id="XmQ-Nd-OQH"/>
                             <constraint firstItem="guY-k3-wnL" firstAttribute="trailing" secondItem="9CE-T0-tXT" secondAttribute="trailingMargin" id="ZXR-1L-eMW"/>
+                            <constraint firstItem="Bxm-ED-LRo" firstAttribute="top" secondItem="Tdc-jK-c7x" secondAttribute="bottom" constant="8" id="a9A-bS-JI5"/>
+                            <constraint firstItem="I44-ya-c5i" firstAttribute="top" secondItem="uIc-nM-ubj" secondAttribute="bottom" constant="25" id="c5B-71-nKI"/>
+                            <constraint firstItem="gm9-7e-6k7" firstAttribute="leading" secondItem="9CE-T0-tXT" secondAttribute="leadingMargin" id="dVf-ge-zPa"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tdc-jK-c7x" secondAttribute="trailing" constant="62" id="evf-Eq-d1n"/>
                             <constraint firstItem="YpP-87-Vw6" firstAttribute="leading" secondItem="9CE-T0-tXT" secondAttribute="leading" id="fMT-O9-r85"/>
-                            <constraint firstItem="ulq-5P-87F" firstAttribute="top" secondItem="Bxm-ED-LRo" secondAttribute="bottom" constant="30" id="jgT-Ch-TTE"/>
+                            <constraint firstItem="f0K-ON-PBX" firstAttribute="top" secondItem="ulq-5P-87F" secondAttribute="bottom" constant="8" id="fyM-gd-1vg"/>
+                            <constraint firstItem="f0K-ON-PBX" firstAttribute="leading" secondItem="9CE-T0-tXT" secondAttribute="leadingMargin" constant="62" id="g79-hp-Ixy"/>
+                            <constraint firstItem="I44-ya-c5i" firstAttribute="top" secondItem="gm9-7e-6k7" secondAttribute="bottom" constant="25" id="iw6-17-SR9"/>
                             <constraint firstAttribute="trailing" secondItem="YpP-87-Vw6" secondAttribute="trailing" id="mDQ-Gc-pfD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Bxm-ED-LRo" secondAttribute="trailing" constant="62" id="qsH-Dl-Sot"/>
                             <constraint firstItem="YpP-87-Vw6" firstAttribute="top" secondItem="9CE-T0-tXT" secondAttribute="top" id="tAJ-YA-7jj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f0K-ON-PBX" secondAttribute="trailing" constant="62" id="vF9-hQ-j1u"/>
                             <constraint firstItem="guY-k3-wnL" firstAttribute="top" secondItem="RRg-k1-3tQ" secondAttribute="bottom" constant="54" id="vN1-dD-Oe7"/>
-                            <constraint firstItem="I44-ya-c5i" firstAttribute="top" secondItem="f0K-ON-PBX" secondAttribute="bottom" constant="49" id="xqM-JB-p2N"/>
                             <constraint firstItem="I44-ya-c5i" firstAttribute="top" secondItem="YpP-87-Vw6" secondAttribute="bottom" id="zsX-3w-fv8"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="goBackOutlet" destination="gm9-7e-6k7" id="vSL-ED-2eJ"/>
                         <outlet property="questionLabel" destination="guY-k3-wnL" id="Q2x-2e-9wo"/>
+                        <outlet property="triviaOutlet" destination="uIc-nM-ubj" id="RiC-t4-pYK"/>
                         <segue destination="Skx-LE-St8" kind="show" identifier="scoreView" id="zWA-u0-KyY"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="mainMenu" id="jus-Y9-HZk"/>
+                        <segue destination="NFI-dF-fTc" kind="show" identifier="triviaSegue" id="MKJ-AR-WAT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3mr-iI-jnt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="920.79999999999995" y="-161.46926536731635"/>
+            <point key="canvasLocation" x="925.60000000000002" y="-161.46926536731635"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="ECH-DO-Yt7">
@@ -339,8 +371,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9w-Uk-izh">
                                 <rect key="frame" x="16" y="115" width="343" height="99"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="99" id="eAc-TV-7HU"/>
-                                    <constraint firstAttribute="width" constant="343" id="tFD-lW-zrW"/>
+                                    <constraint firstAttribute="height" constant="99" id="dPr-cg-PZB"/>
+                                    <constraint firstAttribute="width" constant="343" id="j2z-Nz-hfN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -350,8 +382,8 @@
                                 <rect key="frame" x="78" y="506" width="219" height="57"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="57" id="98X-lF-tfR"/>
-                                    <constraint firstAttribute="width" constant="219" id="9Vm-Td-ux4"/>
+                                    <constraint firstAttribute="width" constant="219" id="Uw9-p6-MBr"/>
+                                    <constraint firstAttribute="height" constant="57" id="gJo-Lu-nAH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="26"/>
                                 <state key="normal">
@@ -365,8 +397,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8X-zN-IuU">
                                 <rect key="frame" x="16" y="340" width="343" height="102"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="102" id="AOx-lQ-D24"/>
-                                    <constraint firstAttribute="width" constant="343" id="bRp-KU-626"/>
+                                    <constraint firstAttribute="width" constant="343" id="G9C-6R-8ai"/>
+                                    <constraint firstAttribute="height" constant="102" id="iP2-eC-Wab"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="60"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -375,20 +407,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="M8X-zN-IuU" firstAttribute="top" secondItem="T9w-Uk-izh" secondAttribute="bottom" constant="126" id="1gF-75-jjA"/>
-                            <constraint firstItem="YMY-BF-gNO" firstAttribute="top" secondItem="bbp-71-26D" secondAttribute="bottom" id="2Sd-Id-QTh"/>
-                            <constraint firstItem="bbp-71-26D" firstAttribute="leading" secondItem="B7I-Fu-T8U" secondAttribute="leading" id="6B8-64-d0q"/>
-                            <constraint firstItem="YMY-BF-gNO" firstAttribute="top" secondItem="f3y-0C-xtO" secondAttribute="bottom" constant="104" id="792-Hs-CTS"/>
-                            <constraint firstItem="f3y-0C-xtO" firstAttribute="leading" secondItem="B7I-Fu-T8U" secondAttribute="leadingMargin" constant="62" id="96l-X1-d4I"/>
-                            <constraint firstItem="bbp-71-26D" firstAttribute="top" secondItem="B7I-Fu-T8U" secondAttribute="top" id="OgU-JG-efG"/>
-                            <constraint firstItem="T9w-Uk-izh" firstAttribute="leading" secondItem="B7I-Fu-T8U" secondAttribute="leadingMargin" id="Qdy-Z1-AJb"/>
-                            <constraint firstItem="T9w-Uk-izh" firstAttribute="trailing" secondItem="B7I-Fu-T8U" secondAttribute="trailingMargin" id="WPi-1B-geL"/>
-                            <constraint firstItem="M8X-zN-IuU" firstAttribute="leading" secondItem="B7I-Fu-T8U" secondAttribute="leadingMargin" id="eid-RR-icd"/>
-                            <constraint firstItem="T9w-Uk-izh" firstAttribute="top" secondItem="Jai-LQ-Ba1" secondAttribute="bottom" constant="95" id="foJ-uX-UMU"/>
-                            <constraint firstItem="M8X-zN-IuU" firstAttribute="trailing" secondItem="B7I-Fu-T8U" secondAttribute="trailingMargin" id="jXt-SY-4Ry"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="f3y-0C-xtO" secondAttribute="trailing" constant="62" id="vAD-v7-9Au"/>
-                            <constraint firstAttribute="trailing" secondItem="bbp-71-26D" secondAttribute="trailing" id="wiu-Ld-0Y3"/>
-                            <constraint firstItem="f3y-0C-xtO" firstAttribute="top" secondItem="M8X-zN-IuU" secondAttribute="bottom" constant="64" id="ysx-aF-kaQ"/>
+                            <constraint firstItem="T9w-Uk-izh" firstAttribute="trailing" secondItem="B7I-Fu-T8U" secondAttribute="trailingMargin" id="C3n-dx-pov"/>
+                            <constraint firstItem="bbp-71-26D" firstAttribute="top" secondItem="B7I-Fu-T8U" secondAttribute="top" id="Dm2-86-rg4"/>
+                            <constraint firstItem="M8X-zN-IuU" firstAttribute="trailing" secondItem="B7I-Fu-T8U" secondAttribute="trailingMargin" id="E3Y-z9-BCt"/>
+                            <constraint firstItem="f3y-0C-xtO" firstAttribute="top" secondItem="M8X-zN-IuU" secondAttribute="bottom" constant="64" id="VgY-cY-lyE"/>
+                            <constraint firstItem="f3y-0C-xtO" firstAttribute="leading" secondItem="B7I-Fu-T8U" secondAttribute="leadingMargin" constant="62" id="aOe-12-bfz"/>
+                            <constraint firstItem="bbp-71-26D" firstAttribute="leading" secondItem="B7I-Fu-T8U" secondAttribute="leading" id="cEq-be-d02"/>
+                            <constraint firstItem="T9w-Uk-izh" firstAttribute="leading" secondItem="B7I-Fu-T8U" secondAttribute="leadingMargin" id="eBD-4o-2sl"/>
+                            <constraint firstItem="M8X-zN-IuU" firstAttribute="leading" secondItem="B7I-Fu-T8U" secondAttribute="leadingMargin" id="hy8-oo-OEr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f3y-0C-xtO" secondAttribute="trailing" constant="62" id="kFC-S9-6c4"/>
+                            <constraint firstItem="YMY-BF-gNO" firstAttribute="top" secondItem="bbp-71-26D" secondAttribute="bottom" id="ldv-rz-EWD"/>
+                            <constraint firstItem="YMY-BF-gNO" firstAttribute="top" secondItem="f3y-0C-xtO" secondAttribute="bottom" constant="104" id="mRu-t6-KGd"/>
+                            <constraint firstAttribute="trailing" secondItem="bbp-71-26D" secondAttribute="trailing" id="pwZ-29-ix7"/>
+                            <constraint firstItem="T9w-Uk-izh" firstAttribute="top" secondItem="Jai-LQ-Ba1" secondAttribute="bottom" constant="95" id="vsp-vd-CBX"/>
                         </constraints>
                     </view>
                     <connections>
@@ -411,6 +442,7 @@
         <image name="triviaBG" width="806" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yWa-Bx-oUr"/>
+        <segue reference="K47-v4-XEk"/>
+        <segue reference="8ga-B3-nzy"/>
     </inferredMetricsTieBreakers>
 </document>

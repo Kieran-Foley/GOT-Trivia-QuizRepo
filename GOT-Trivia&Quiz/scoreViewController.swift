@@ -2,9 +2,9 @@ import UIKit
 
 class scoreViewController: UIViewController {
     
-    /***************************************************************************************
-     * Variable Declarations and Outlets.
-     ***************************************************************************************/
+/***************************************************************************************
+ * Variable Declarations and Outlets.
+ ***************************************************************************************/
     // Text to go with each possible score.
     let score0 = "SHAME, SHAME, SHAME!";
     let score1 = "You're About As Clever As Hot Pie, SHAME...";
@@ -26,21 +26,20 @@ class scoreViewController: UIViewController {
         score = 0;
     }
     
-    /*****************************************************************************************
-     *
-     * Function name : viewDidLoad()
-     *    returns : N/A
-     *    arg1 : N/A
-     * Created by : Kieran Foley
-     * Date created : 25/07/2017
-     * Date last modified : 25/07/17
-     * Description :
-     *  Displays the users total score and some text to go along side it, depending on the
-     *  total. This function is called once the view has loaded.
-     *****************************************************************************************/
+/*****************************************************************************************
+ * Function name : viewDidLoad()
+ *    returns : N/A
+ *    arg1 : N/A
+ * Created by : Kieran Foley
+ * Date created : 03/08/2017
+ * Date last modified : 12/08/17
+ * Description :
+ *  Displays the users total score and some text to go along side it, depending on the
+ *  total. This function is called once the view has loaded.
+ *****************************************************************************************/
     override func viewDidLoad() {
         super.viewDidLoad()
-        scoreLabel.text! = String(score) + "/4";
+        scoreLabel.text! = String(score) + "/6";
         
         if(score == 0) {
             scoreDesc.text = score0;
