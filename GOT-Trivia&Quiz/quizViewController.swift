@@ -60,9 +60,7 @@ class quizViewController: UIViewController {
 * each button. It also checks to see if the user has reached the max amount of questions
 * (equal to the question array) and then moves to the score view controller.
 *****************************************************************************************/
-    
-    
-    
+
     @IBAction func answerButtons(_ sender: UIButton) {
         
         // If the tag of the button the user clicks on equals the right answer placement.
@@ -84,7 +82,6 @@ class quizViewController: UIViewController {
             print(score)
         }
     }
-    
     
     func newQuestion() {
         // Display questions.

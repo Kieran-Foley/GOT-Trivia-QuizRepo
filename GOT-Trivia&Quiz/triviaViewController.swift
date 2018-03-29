@@ -14,7 +14,6 @@ class triviaViewController: UIViewController {
     
     @IBOutlet var factLabel: UILabel!
     
-    
 /*****************************************************************************************
  * Function name : nextFactButton()
  *    returns : N/A

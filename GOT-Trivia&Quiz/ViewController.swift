@@ -14,7 +14,6 @@
 
 import UIKit
 
-// Global :(
 var shownSpoilerAlert = 0;
 
 class ViewController: UIViewController {
@@ -108,8 +107,9 @@ class ViewController: UIViewController {
 *
 *    * Add more questions and answers.
 *    * Make the questions random, make many so its different every time you try.
-*    * Highscores? Would need to implement users.
-*    * Comment all views.
+*    * Highscores database using Firebase.
+*    * Add online polling.
+*    * Trivia - Family Trees, House facts etc.
 ***************************************************************************************/
 }
 
